@@ -448,3 +448,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 });
+/* Open appointment calendar */
+
+const openCalendarBtn = document.getElementById("openCalendarBtn");
+const calendarDateInput = document.getElementById("appointmentDate");
+
+if (openCalendarBtn && calendarDateInput) {
+    openCalendarBtn.addEventListener("click", function () {
+        if (typeof calendarDateInput.showPicker === "function") {
+            try {
+                calendarDateInput.showPicker();
+            } catch (error) {
+                calendarDateInput.focus();
+                calendarDateInput.click();
+            }
+        } else {
+            calendarDateInput.focus();
+            calendarDateInput.click();
+        }
+    });
+}
