@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Book Now | OTO Car Wash Fredericton</title>
+
+    <meta name="description"
+          content="Request an appointment for interior detailing, exterior detailing or an oil change at OTO Car Wash in Fredericton, New Brunswick.">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- =========================
+     NAVIGATION
+========================= -->
+
+<header class="main-header">
+
+    <a href="index.html" class="brand">
+        <span class="brand-main">OTO</span>
+        <span class="brand-sub">CAR WASH</span>
+    </a>
+
+    <nav class="desktop-nav">
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="booking.html" class="nav-book active">Book Now</a>
+    </nav>
+
+    <button class="menu-button"
+            id="menuButton"
+            type="button"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="mobileMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+    <a href="booking.html">Book Now</a>
+
+</div>
+
+<main>
+
+<!-- =========================
+     BOOKING HERO
+========================= -->
+
+<section class="page-hero booking-page-hero">
+
+    <div class="hero-glow hero-glow-one"></div>
+    <div class="hero-glow hero-glow-two"></div>
+
+    <div class="page-hero-content reveal">
+
+        <p class="eyebrow">YOUR CAR IS NEXT</p>
+
+        <h1>
+            BOOK THE<br>
+            <span>OTO TREATMENT.</span>
+        </h1>
+
+        <p>
+            Three services. A few simple steps.
+            Tell us what your vehicle needs and request your appointment.
+        </p>
+
+    </div>
+
+    <div class="page-number">04</div>
+
+</section>
+
+<!-- =========================
+     BOOKING INTRO
+========================= -->
+
+<section class="booking-intro-section">
+
+    <div class="booking-intro-left reveal">
+
+        <p class="eyebrow">START HERE</p>
+
+        <h2>
+            YOUR CAR.<br>
+            <span>YOUR SERVICE.</span>
+        </h2>
+
+    </div>
+
+    <div class="booking-intro-right reveal">
+
+        <p>
+            Choose one of our three services below, then tell us
+            about yourself, your vehicle and when you'd prefer
+            to bring it in.
+        </p>
+
+        <div class="booking-mini-steps">
+            <span>01 SERVICE</span>
+            <span>02 VEHICLE</span>
+            <span>03 DATE</span>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+     BOOKING FORM
+========================= -->
+
+<section class="booking-main-section">
+
+    <form
+        class="booking-form-new"
+        id="bookingForm"
+        action="https://formsubmit.co/zakareyamohammad2@gmail.com"
+        method="POST"
+        accept-charset="UTF-8"
+    >
+
+        <!-- FORMSUBMIT SETTINGS -->
+
+        <input
+            type="hidden"
+            name="_subject"
+            value="OTO CAR WASH | New Appointment Request"
+        >
+
+        <input
+            type="hidden"
+            name="_template"
+            value="table"
+        >
+
+        <input
+            type="hidden"
+            name="_autoresponse"
+            value="Thank you for choosing OTO Car Wash! We have received your appointment request. Your appointment is NOT confirmed yet. Our team will contact you to confirm your preferred date, time, and final pricing. OTO Car Wash - Fredericton, New Brunswick."
+        >
+
+        <input
+            type="hidden"
+            name="_captcha"
+            value="true"
+        >
+
+        <input
+            type="hidden"
+            name="_honey"
+            style="display:none"
+        >
+
+        <!-- =========================
+             STEP 1 - SERVICE
+        ========================= -->
+
+        <div class="booking-step reveal">
+
+            <div class="booking-step-header">
+
+                <div class="booking-step-number">01</div>
+
+                <div>
+                    <p class="eyebrow">FIRST THINGS FIRST</p>
+                    <h2>CHOOSE YOUR SERVICE</h2>
+                </div>
+
+            </div>
+
+            <div class="booking-service-grid">
+
+                <!-- INTERIOR -->
+
+                <label class="booking-choice">
+
+                    <input
+                        type="radio"
+                        name="Service"
+                        value="Interior Detailing"
+                        required
+                    >
+
+                    <div class="booking-choice-inner">
+
+                        <div class="booking-choice-top">
+                            <span class="booking-choice-number">01</span>
+                            <div class="booking-check">✓</div>
+                        </div>
+
+                        <p class="booking-choice-label">INSIDE</p>
+
+                        <h3>
+                            Interior<br>
+                            Detailing
+                        </h3>
+
+                        <p class="booking-choice-description">
+                            Clean and refresh the inside
+                            of your vehicle.
+                        </p>
+
+                        <div class="booking-choice-price">
+
+                            <span>STARTING FROM</span>
+
+                            <strong>$125</strong>
+
+                            <small>
+                                Depends on vehicle size and condition
+                            </small>
+
+                        </div>
+
+                        <div class="booking-select-text">
+                            SELECT INTERIOR
+                        </div>
+
+                    </div>
+
+                </label>
+
+                <!-- EXTERIOR -->
+
+                <label class="booking-choice">
+
+                    <input
+                        type="radio"
+                        name="Service"
+                        value="Exterior Detailing"
+                        required
+                    >
+
+                    <div class="booking-choice-inner">
+
+                        <div class="booking-choice-top">
+                            <span class="booking-choice-number">02</span>
+                            <div class="booking-check">✓</div>
+                        </div>
+
+                        <p class="booking-choice-label">OUTSIDE</p>
+
+                        <h3>
+                            Exterior<br>
+                            Detailing
+                        </h3>
+
+                        <p class="booking-choice-description">
+                            Clean and refresh the exterior
+                            of your vehicle.
+                        </p>
+
+                        <div class="booking-choice-price">
+
+                            <span>STARTING FROM</span>
+
+                            <strong>$125</strong>
+
+                            <small>
+                                Depends on vehicle size and condition
+                            </small>
+
+                        </div>
+
+                        <div class="booking-select-text">
+                            SELECT EXTERIOR
+                        </div>
+
+                    </div>
+
+                </label>
+
+                <!-- OIL CHANGE -->
+
+                <label class="booking-choice">
+
+                    <input
+                        type="radio"
+                        name="Service"
+                        value="Oil Change"
+                        required
+                    >
+
+                    <div class="booking-choice-inner">
+
+                        <div class="booking-choice-top">
+                            <span class="booking-choice-number">03</span>
+                            <div class="booking-check">✓</div>
+                        </div>
+
+                        <p class="booking-choice-label">MAINTENANCE</p>
+
+                        <h3>
+                            Oil<br>
+                            Change
+                        </h3>
+
+                        <p class="booking-choice-description">
+                            Routine oil service to help keep
+                            your engine maintained.
+                        </p>
+
+                        <div class="booking-choice-price">
+
+                            <span>AVAILABLE FOR</span>
+
+                            <strong>All Vehicles</strong>
+
+                            <small>
+                                Contact OTO for pricing
+                            </small>
+
+                        </div>
+
+                        <div class="booking-select-text">
+                            SELECT OIL CHANGE
+                        </div>
+
+                    </div>
+
+                </label>
+
+            </div>
+
+        </div>
+
+        <!-- =========================
+             STEP 2 - CUSTOMER
+        ========================= -->
+
+        <div class="booking-step reveal">
+
+            <div class="booking-step-header">
+
+                <div class="booking-step-number">02</div>
+
+                <div>
+                    <p class="eyebrow">WHO ARE WE HELPING?</p>
+                    <h2>YOUR INFORMATION</h2>
+                </div>
+
+            </div>
+
+            <div class="booking-fields">
+
+                <div class="form-row">
+
+                    <div class="form-field">
+
+                        <label for="bookingFirstName">
+                            FIRST NAME *
+                        </label>
+
+                        <input
+                            type="text"
+                            id="bookingFirstName"
+                            name="First Name"
+                            placeholder="First name"
+                            autocomplete="given-name"
+                            required
+                        >
+
+                    </div>
+
+                    <div class="form-field">
+
+                        <label for="bookingLastName">
+                            LAST NAME *
+                        </label>
+
+                        <input
+                            type="text"
+                            id="bookingLastName"
+                            name="Last Name"
+                            placeholder="Last name"
+                            autocomplete="family-name"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+                <div class="form-row">
+
+                    <div class="form-field">
+
+                        <label for="bookingPhone">
+                            PHONE NUMBER *
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="bookingPhone"
+                            name="Phone Number"
+                            placeholder="506-555-1234"
+                            autocomplete="tel"
+                            required
+                        >
+
+                    </div>
+
+                    <div class="form-field">
+
+                        <label for="bookingEmail">
+                            EMAIL *
+                        </label>
+
+                        <input
+                            type="email"
+                            id="bookingEmail"
+                            name="email"
+                            placeholder="you@example.com"
+                            autocomplete="email"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- =========================
+             STEP 3 - VEHICLE
+        ========================= -->
+
+        <div class="booking-step reveal">
+
+            <div class="booking-step-header">
+
+                <div class="booking-step-number">03</div>
+
+                <div>
+                    <p class="eyebrow">TELL US ABOUT IT</p>
+                    <h2>YOUR VEHICLE</h2>
+                </div>
+
+            </div>
+
+            <div class="booking-fields">
+
+                <div class="form-row">
+
+                    <div class="form-field">
+
+                        <label for="vehicleYear">YEAR *</label>
+
+                        <input
+                            type="number"
+                            id="vehicleYear"
+                            name="Vehicle Year"
+                            placeholder="2022"
+                            min="1950"
+                            max="2030"
+                            required
+                        >
+
+                    </div>
+
+                    <div class="form-field">
+
+                        <label for="vehicleMake">MAKE *</label>
+
+                        <input
+                            type="text"
+                            id="vehicleMake"
+                            name="Vehicle Make"
+                            placeholder="Example: Toyota"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+                <div class="form-row">
+
+                    <div class="form-field">
+
+                        <label for="vehicleModel">MODEL *</label>
+
+                        <input
+                            type="text"
+                            id="vehicleModel"
+                            name="Vehicle Model"
+                            placeholder="Example: Corolla"
+                            required
+                        >
+
+                    </div>
+
+                    <div class="form-field">
+
+                        <label for="vehicleType">
+                            VEHICLE TYPE *
+                        </label>
+
+                        <select
+                            id="vehicleType"
+                            name="Vehicle Type"
+                            required
+                        >
+
+                            <option value="">
+                                Select vehicle type
+                            </option>
+
+                            <option value="Sedan">Sedan</option>
+                            <option value="SUV">SUV</option>
+                            <option value="Truck">Truck</option>
+                            <option value="Van">Van</option>
+                            <option value="Other">Other</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+                <div class="form-field">
+
+                    <label for="vehicleCondition">
+                        VEHICLE CONDITION
+                    </label>
+
+                    <select
+                        id="vehicleCondition"
+                        name="Vehicle Condition"
+                    >
+
+                        <option value="">
+                            Select if applicable
+                        </option>
+
+                        <option value="Light cleaning needed">
+                            Light cleaning needed
+                        </option>
+
+                        <option value="Moderate cleaning needed">
+                            Moderate cleaning needed
+                        </option>
+
+                        <option value="Heavy cleaning needed">
+                            Heavy cleaning needed
+                        </option>
+
+                        <option value="Not applicable / Oil change">
+                            Not applicable / Oil change
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- =========================
+             STEP 4 - APPOINTMENT
+        ========================= -->
+
+        <div class="booking-step reveal">
+
+            <div class="booking-step-header">
+
+                <div class="booking-step-number">04</div>
+
+                <div>
+                    <p class="eyebrow">WHEN WORKS FOR YOU?</p>
+                    <h2>PREFERRED APPOINTMENT</h2>
+                </div>
+
+            </div>
+
+            <div class="booking-fields">
+
+                <div class="form-row">
+
+                    <div class="form-field">
+
+                        <label for="appointmentDate">
+                            PREFERRED DATE *
+                        </label>
+
+                        <input
+                            type="date"
+                            id="appointmentDate"
+                            name="Preferred Date"
+                            required
+                        >
+
+                    </div>
+
+                    <div class="form-field">
+
+                        <label for="appointmentTime">
+                            PREFERRED TIME *
+                        </label>
+
+                        <select
+                            id="appointmentTime"
+                            name="Preferred Time"
+                            required
+                        >
+
+                            <option value="">
+                                Select preferred time
+                            </option>
+
+                            <option value="Morning">
+                                Morning
+                            </option>
+
+                            <option value="Afternoon">
+                                Afternoon
+                            </option>
+
+                            <option value="Evening">
+                                Evening
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+                <div class="form-field">
+
+                    <label for="bookingNotes">
+                        ANYTHING ELSE WE SHOULD KNOW?
+                    </label>
+
+                    <textarea
+                        id="bookingNotes"
+                        name="Additional Notes"
+                        rows="6"
+                        placeholder="Tell us anything important about your vehicle or appointment..."
+                    ></textarea>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- =========================
+             FINAL SUBMISSION
+        ========================= -->
+
+        <div class="booking-submit-area reveal">
+
+            <div class="booking-submit-text">
+
+                <p class="eyebrow">ALMOST THERE</p>
+
+                <h2>
+                    SEND YOUR<br>
+                    <span>REQUEST.</span>
+                </h2>
+
+                <p>
+                    Your appointment is not confirmed yet.
+                    After you submit your request, OTO will contact
+                    you to confirm the date, time and final pricing.
+                </p>
+
+            </div>
+
+            <div class="booking-submit-action">
+
+                <button
+                    type="submit"
+                    class="button primary-button booking-final-button"
+                >
+                    Request Appointment
+                    <span>→</span>
+                </button>
+
+                <p>
+                    No payment is collected on this page.
+                </p>
+
+                <p style="margin-top:12px; line-height:1.7;">
+                    By submitting, you agree to be contacted
+                    about your appointment request.
+                </p>
+
+            </div>
+
+        </div>
+
+    </form>
+
+</section>
+
+<!-- =========================
+     BOOKING NOTE
+========================= -->
+
+<section class="booking-note-section">
+
+    <div class="booking-note reveal">
+
+        <div class="booking-note-symbol">+</div>
+
+        <div>
+
+            <p class="eyebrow">DETAILING PRICING</p>
+
+            <h3>
+                INTERIOR & EXTERIOR START AT $125
+            </h3>
+
+            <p>
+                Final pricing may vary depending on the size
+                and condition of your vehicle.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+     MARQUEE
+========================= -->
+
+<section class="marquee-section">
+
+    <div class="marquee-track">
+
+        <span>CHOOSE</span>
+        <span class="marquee-dot">●</span>
+
+        <span>BOOK</span>
+        <span class="marquee-dot">●</span>
+
+        <span>DETAIL</span>
+        <span class="marquee-dot">●</span>
+
+        <span>DRIVE</span>
+        <span class="marquee-dot">●</span>
+
+        <span>CHOOSE</span>
+        <span class="marquee-dot">●</span>
+
+        <span>BOOK</span>
+        <span class="marquee-dot">●</span>
+
+        <span>DETAIL</span>
+        <span class="marquee-dot">●</span>
+
+        <span>DRIVE</span>
+        <span class="marquee-dot">●</span>
+
+    </div>
+
+</section>
+
+<!-- =========================
+     NEED HELP
+========================= -->
+
+<section class="cta-section">
+
+    <div class="cta-glow"></div>
+
+    <div class="cta-content reveal">
+
+        <p class="eyebrow">
+            NOT SURE WHAT TO PICK?
+        </p>
+
+        <h2>
+            ASK US<br>
+            <span>FIRST.</span>
+        </h2>
+
+        <p>
+            If you're unsure which service your vehicle needs,
+            contact OTO and we'll help.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="contact.html"
+               class="button primary-button">
+                Contact OTO
+                <span>→</span>
+            </a>
+
+            <a href="services.html"
+               class="button secondary-button">
+                Compare Services
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer class="footer">
+
+    <div class="footer-top">
+
+        <div class="footer-brand">
+
+            <a href="index.html" class="brand footer-logo">
+                <span class="brand-main">OTO</span>
+                <span class="brand-sub">CAR WASH</span>
+            </a>
+
+            <p>
+                Clean inside.<br>
+                Clean outside.<br>
+                Ready for the road.
+            </p>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h4>Navigate</h4>
+
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="booking.html">Book Now</a>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h4>Services</h4>
+
+            <a href="services.html#interior">
+                Interior Detailing
+            </a>
+
+            <a href="services.html#exterior">
+                Exterior Detailing
+            </a>
+
+            <a href="services.html#oil">
+                Oil Change
+            </a>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h4>Location</h4>
+
+            <p>
+                Fredericton<br>
+                New Brunswick<br>
+                Canada
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+            © <span id="currentYear"></span>
+            OTO Car Wash. All rights reserved.
+        </p>
+
+        <p class="footer-signature">
+            OTO <span>●</span> CAR WASH
+        </p>
+
+    </div>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
