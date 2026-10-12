@@ -602,15 +602,23 @@
                             PREFERRED DATE *
                         </label>
 
-                        <input
-                          type="date"
-                          id="appointmentDate"
-                          name="Preferred Date"
-                          required
-                          onclick="if (this.showPicker) this.showPicker()"
-                        >
+                        <div class="date-picker-wrapper">
+							<input
+								type="date"
+								id="appointmentDate"
+								name="Preferred Date"
+								required
+							>
 
-                    </div>
+							<button
+								type="button"
+								class="calendar-open-btn"
+								id="openCalendarBtn"
+								aria-label="Open appointment calendar"
+							>
+								📅 Choose Date
+							</button>
+						</div>
 
                     <div class="form-field">
 
