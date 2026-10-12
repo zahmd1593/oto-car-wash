@@ -3817,3 +3817,45 @@ p {
     }
 
 }
+/* Appointment calendar button */
+
+.date-picker-wrapper {
+    display: flex;
+    align-items: stretch;
+    gap: 12px;
+    width: 100%;
+}
+
+.date-picker-wrapper input[type="date"] {
+    flex: 1;
+    min-width: 0;
+    width: 100%;
+    color-scheme: dark;
+}
+
+.calendar-open-btn {
+    background: #60aaff;
+    color: #06101d;
+    border: none;
+    border-radius: 6px;
+    padding: 14px 22px;
+    font-weight: 800;
+    font-size: 14px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.calendar-open-btn:hover {
+    background: #89c2ff;
+}
+
+@media (max-width: 600px) {
+    .date-picker-wrapper {
+        flex-direction: column;
+    }
+
+    .calendar-open-btn {
+        width: 100%;
+        min-height: 54px;
+    }
+}
